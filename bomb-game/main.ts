@@ -145,3 +145,14 @@ led.plot(pos1, pos2)
 // Útoky
 rychle_utoky()
 pomale_utoky()
+// NEW LEVELS
+const levels = [1, 2, 3]
+let current_level = 1
+// 2 LEVEL
+control.waitMicros(15000000)
+current_level = levels[1]
+    console.log("(2) Current level: " + current_level)
+// 3 LEVEL
+control.waitMicros(25000000)
+current_level = levels[2]
+    console.log("(3) Current level: " + current_level)
